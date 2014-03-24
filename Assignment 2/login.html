@@ -1,0 +1,86 @@
+<!doctype html>
+<!--
+Name: Alex Valickis
+Date: January 30th 2014
+Purpose: Terms page
+-->
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Page Tittle -->
+		<title>Login | Alex's Portfolio</title>
+		<link rel="stylesheet" href="css/foundation.css" />
+		<script src="js/modernizr.js"></script>
+	</head>
+	<body>
+		<div class="row">
+			<div class="large-10">
+				<!-- Nav Bar and links -->
+				<div class="nav">
+					<ul>
+						<li>
+							<a href="index.html" id="navHome">Home</a>
+						</li>
+						<li>
+							<a href="about.html" id="navAbout">About Me</a>
+						</li>
+						<li>
+							<a href="services.html" id="navServices">Services</a>
+						</li>
+						<li>
+							<a href="project.html" id="navProject">Projects</a>
+						</li>
+						<li>
+							<a href="github.html" id="navGit">GitHub</a>
+						</li>
+						<li>
+							<a href="contact.html" id="navContact">Contact Me</a>
+						</li>
+						<li>
+							<a href="login.html" id="navlogin">Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<!-- Page Content -->
+			<div class="large-12 columns">
+				<h1>User Login</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="large-12 columns">
+				<!-- Terms of use link and viewer -->
+				<div class="panel">
+					<div class="large-4 columns">
+						<form name="form1" method="post" action="validate.php">
+							<label>Username:
+								<input type="text" placeholder="Username" id="usernametxt"/>
+							</label>
+							<label>Password:
+								<input type="password" placeholder="Password" id="passwordtxt"/>
+							</label>
+						<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+						<input type="submit" name="Submit" value="Login">
+						</form>
+					</div>
+				</div>
+			
+				<!-- Footer -->
+				<div class="panel">
+					<p>
+						<a href="terms.html">Terms of Use</a> | <a href="privacy.html">Privacy Policy</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
+</html>
